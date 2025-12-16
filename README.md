@@ -1,7 +1,7 @@
 # 🪐 Exercise – NovaParcel
 
 > This exercise is inspired by the "Awesome Inc" Data Engineering Challenge.  
-> Original exercise: [link-to-original-repo]
+> Original exercise: [https://github.com/flvndh/awesome-inc]
 
 NovaParcel is an **inter-galactic parcel delivery company** operating across multiple star systems and galaxies.
 
