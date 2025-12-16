@@ -5,13 +5,13 @@
 
 NovaParcel is an **inter-galactic parcel delivery company** operating across multiple star systems and galaxies.
 
-As part of the **Analytics team**, your role is to help us with the following topics.
+As part of the **Business Intelligence team**, your role is to help us with the following topics.
 
 ---
 
 ## 📃 API
 
-We want to provide an API that exposes data from the NovaParcel operational database, which will be used downstream by **Azure Data Factory**.
+We want to provide an API that exposes data from the NovaParcel operational database, which will be used downstream by **orchestrator hosted on Azure**.
 
 ### 👓 Requirements
 
