@@ -69,4 +69,4 @@ We expect you to demonstrate:
 
 - Create a **private GitHub repository**  
 - Publish your solution  
-- Invite **`manueldekan`** and **``** as a contributor
+- Invite **`manueldekan`** and **`abel83`** as a contributor
