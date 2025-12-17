@@ -39,7 +39,7 @@ We want to give our business users the ability to answer questions such as:
 
 ---
 
-## 🐱‍🏍 Getting Started
+## 🚀 Getting Started
 
 The repository contains a `docker-compose` file that starts:
 
