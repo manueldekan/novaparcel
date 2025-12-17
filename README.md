@@ -1,50 +1,56 @@
-# 🪐 Exercise – NovaParcel
+# 🪐 NovaParcel – Data Engineering Exercise
 
-> This exercise is inspired by the "Awesome Inc" Data Engineering Challenge.  
-> Original exercise: [https://github.com/flvndh/awesome-inc]
+This exercise is inspired by the *Awesome Inc Data Engineering Challenge*.  
+Original exercise: https://github.com/flvndh/awesome-inc
 
-NovaParcel is an **inter-galactic parcel delivery company** operating across multiple star systems and galaxies.
+**NovaParcel** is an inter-galactic parcel delivery company operating across multiple star systems and galaxies.
 
-As part of the **Business Intelligence team**, your role is to help us with the following topics.
+As part of the **Business Intelligence team**, your role is to help us expose operational data and enable analytical use cases for business users.
+
+> This exercise is intentionally open-ended.  
+> Some aspects of your solution will be discussed during a follow-up interview.
 
 ---
 
-## 📃 API
+## 📃 Part 1 – API
 
-We want to provide an API that exposes data from the NovaParcel operational database, which will be used downstream by **orchestrator hosted on Azure**.
+NovaParcel wants to expose data from its operational PostgreSQL database through a REST API.  
+This API will be consumed downstream by an orchestrator hosted on **Azure**, and the application itself is expected to be deployable on Azure.
 
 ### 👓 Requirements
-
-- Implement a **REST API** on top of the NovaParcel database  
-  *(for example using C#, Python — any language is fine)*
-- **Test** the API using a test framework suitable for your chosen language  
-- **Containerize** the application (e.g., Docker)  
-- Keep your work **versioned** using Git
+- Implement a REST API on top of the NovaParcel PostgreSQL database  
+  *(language and framework of your choice: C#, Python, etc.)*
+- Decide which data and endpoints to expose
+- Test the API using a test framework suitable for your chosen language
+- Containerize the application (e.g., Docker)
+- Ensure the application can be deployed on Azure
+- Keep your work versioned using Git
 
 ---
 
-## 📈 Data Warehouse
+## 📈 Part 2 – Data Warehouse
 
 We want to give our business users the ability to answer questions such as:
 
 - How many parcels are delivered each month?
 - Which parcel category generates the most revenue?
-- Which region of the universe is our best market?  
+- Which product has the highest profit margin?
+- Which region of the universe is our best market?
 
 ### 👓 Requirements
-
-- Design a **dimensional model** capable of answering these questions, and possibly others  
-- Implement this dimensional model *(for example using dbt)*  
-- Keep your work **versioned** using Git
+- Design a dimensional model capable of answering these questions (and possibly others)
+- Implement this dimensional model  
+  *(for example using dbt, or an equivalent solution)*
+- Keep your work versioned using Git
 
 ---
 
 ## 🚀 Getting Started
 
-The repository contains a `docker-compose` file that starts:
+The repository contains a `docker-compose.yml` file that starts:
 
-- A **PostgreSQL database** with NovaParcel data  
-- **PgAdmin** to explore and manage the database  
+- A PostgreSQL database with NovaParcel data
+- PgAdmin to explore and manage the database
 
 By default, PgAdmin is accessible at:  
 👉 http://localhost:8080
@@ -53,20 +59,21 @@ By default, PgAdmin is accessible at:
 
 ## 📏 Expectations
 
-This exercise is designed to evaluate both your **software development** and **data engineering** skills.
+This exercise is designed to evaluate both your software development and data engineering skills.
 
 We expect you to demonstrate:
+- High-quality, maintainable code
+- Thoughtful design decisions
+- Ability to model and transform data for analytical use cases
 
-- High-quality code that is maintainable, testable, and deployable  
-- Thoughtful design decisions and reasoning  
-- Ability to transform data for analytical purposes, including **dimensional modeling** and **data quality checks**
-
-> The tools mentioned are part of our stack. You are free to use alternatives — we value **engineering judgment over tool mastery**.
+The tools mentioned are part of our stack, but you are free to use alternatives.
 
 ---
 
 ## 👀 How to Share Your Solution
 
-- Create a **private GitHub repository**  
-- Publish your solution  
-- Invite **`manueldekan`** and **`abel83`** as a contributor
+- Create a **private GitHub repository**
+- Publish your solution
+- Invite the following users as contributors:
+  - `manueldekan`
+  - `abel83`
