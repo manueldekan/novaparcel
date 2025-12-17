@@ -1,8 +1,5 @@
 # 🪐 NovaParcel – Data Engineering Exercise
 
-This exercise is inspired by the *Awesome Inc Data Engineering Challenge*.  
-Original exercise: https://github.com/flvndh/awesome-inc
-
 **NovaParcel** is an inter-galactic parcel delivery company operating across multiple star systems and galaxies.
 
 As part of the **Business Intelligence team**, your role is to help us expose operational data and enable analytical use cases for business users.
@@ -77,3 +74,7 @@ The tools mentioned are part of our stack, but you are free to use alternatives.
 - Invite the following users as contributors:
   - `manueldekan`
   - `abel83`
+
+
+>This exercise is inspired by the *Awesome Inc Data Engineering Challenge*.  
+>Original exercise: https://github.com/flvndh/awesome-inc
