@@ -1,29 +1,30 @@
-version: '3.8'
-
 services:
-  db:
-    image: postgres:15
+  postgres:
+    image: postgres:16
     container_name: novaparcel-db
     restart: always
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: interviewee
+      POSTGRES_PASSWORD: pswd
       POSTGRES_DB: novaparcel
+    volumes:
+      - ./data/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-    volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
   pgadmin:
-    image: dpage/pgadmin4:7
+    image: dpage/pgadmin4:8
     container_name: novaparcel-pgadmin
     restart: always
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@novaparcel.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_DEFAULT_PASSWORD: novaparcel_admin
+    volumes:
+      - ./data/servers.json:/pgadmin4/servers.json
     ports:
       - "8080:80"
     depends_on:
-      - db
-    volumes:
-      - ./servers.json:/pgadmin4/servers.json
+      - postgres
+volumes:
+  data:
