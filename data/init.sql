@@ -4,16 +4,17 @@
 
 CREATE TABLE vehicle_type (
     id INT PRIMARY KEY,
-    name VARCHAR
+    name VARCHAR,
+    cost NUMERIC
 );
 
 INSERT INTO vehicle_type VALUES
-    (1000, 'Speeder Pod'),          
-    (1001, 'Starliner Express'),    
-    (1002, 'Cargo Freighter'),      
-    (1003, 'Multi-Pack Shuttle'),   
-    (1004, 'Drone'),                
-    (1005, 'Galactic Hauler');      
+    (1000, 'Speeder Pod', 3),          
+    (1001, 'Starliner Express', 7),    
+    (1002, 'Cargo Freighter', 10),     
+    (1003, 'Multi-Pack Shuttle', 8),   
+    (1004, 'Drone', 2),                
+    (1005, 'Galactic Hauler', 20);  
 
 
 CREATE TABLE customer (
