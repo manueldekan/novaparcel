@@ -74,6 +74,7 @@ The tools mentioned are part of our stack, but you are free to use alternatives.
   - `manueldekan`
   - `abel83`
 
+---
 
 >This exercise is inspired by the *Awesome Inc Data Engineering Challenge*.  
 >Original exercise: https://github.com/flvndh/awesome-inc
