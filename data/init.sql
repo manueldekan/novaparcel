@@ -46,7 +46,6 @@ INSERT INTO planet VALUES
     (1004, 'Krypton', 'Solar System'),
     (1005, 'Gallifrey', 'Time Vortex');
 
--- 4️⃣ Products (Parcel types based on size & weight)
 CREATE TABLE product (
     id INT PRIMARY KEY,
     reference VARCHAR,
@@ -66,8 +65,6 @@ INSERT INTO product VALUES
     (1007, 'P-L-M', 'Large Item - Medium Weight', 1005, '35'),
     (1008, 'P-L-H', 'Large Item - Heavy Weight', 1005, '50');
 
-
--- 5️⃣ Deliveries
 CREATE TABLE delivery (
     id INT PRIMARY KEY,
     name VARCHAR,
