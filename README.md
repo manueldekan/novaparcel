@@ -30,8 +30,7 @@ This API will be consumed downstream by an orchestrator hosted on **Azure**, and
 We want to give our business users the ability to answer questions such as:
 
 - How many parcels are delivered each month?
-- Which parcel category generates the most revenue?
-- Which product has the highest profit margin?
+- Which product generates the most revenue?
 - Which region of the universe is our best market?
 
 ### 👓 Requirements
