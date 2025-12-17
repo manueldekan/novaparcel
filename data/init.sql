@@ -1,5 +1,5 @@
 -- ====================================
--- NovaParcel Sci-Fi Delivery Database
+-- NovaParcel Database
 -- ====================================
 
 CREATE TABLE vehicle_type (
