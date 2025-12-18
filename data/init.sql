@@ -102,5 +102,6 @@ INSERT INTO delivery VALUES
     (1023, 'Del-0024', 'Ultra-Fast delivery of "Time Crystals Set" with Galactic Hauler', 1005, 1000, '2025-03-16'),
     (1024, 'Del-0025', 'Transported "Holodeck VR Items" using Cargo Freighter', 1006, 1001, '2025-03-18'),
     (1025, 'Del-0026', 'Delivered "Starfleet Phaser Set x2" with Galactic Hauler', 1007, 1002, '2025-03-22'),
-    (1026, 'Del-0027', 'Massive delivery of "X-Wing Engines" via Galactic Hauler', 1008, 1003, '2025-03-25');
+    (1026, 'Del-0027', 'Massive delivery of "X-Wing Engines" via Galactic Hauler', 1008, 1003, '2025-03-25'),
+    (1027, 'Del-0016', 'Transported "Holodeck Props" using Cargo Freighter', 1006, 1003, '2025-02-20');
 
