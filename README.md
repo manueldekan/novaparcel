@@ -12,7 +12,8 @@ As part of the **Business Intelligence team**, your role is to help us expose op
 ## 📃 Part 1 – API
 
 NovaParcel wants to expose data from its operational PostgreSQL database through a REST API.  
-This API will be consumed downstream by an orchestrator hosted on **Azure**, and the application itself is expected to be deployable on Azure.
+This API will be consumed downstream by an orchestrator hosted on **Azure** to feed the data warehouse. 
+The application itself is expected to be deployable on Azure.
 
 ### 👓 Requirements
 - Implement a REST API on top of the NovaParcel PostgreSQL database  
